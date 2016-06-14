@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="239d5e56-2cf4-4924-85e6-54a9ea2b0007">
+      <user-name>saphal</user-name>
+      <user-password>dfe4dfefdfe9df89df98df99df9fdf92</user-password>
+      <schema-pattern>myprojectdb.pg_catalog myprojectdb.public</schema-pattern>
+      <default-schemas>myprojectdb.public</default-schemas>
+    </data-source>
+  </component>
+</project>

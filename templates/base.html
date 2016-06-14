@@ -1,0 +1,46 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block head_title %}Django Website{% endblock %}</title>
+    {% include "css.html" %}
+
+
+</head>
+<body>
+    {% include "menu.html" %}
+    {% block jumbotron %}
+
+    {% endblock %}
+    <div class="container">
+
+
+
+            {% block content %}
+
+            {% endblock %}
+
+
+    </div> <!-- /container -->
+
+    {% include "javascript.html" %}
+
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+{% include "messages_display.html" %}
+
+{#<img src='{% static "img/beach.jpg" %}'/>#}
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+{#<script src="{% static 'js/jquery.min.js' %}"></script>#}
+{#<script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>#}
+{#</body>#}
+</html>
