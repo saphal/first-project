@@ -30,10 +30,15 @@ wheel==0.24.0
 
 <h2>File Description</h2>
 blog module: separate module for blog that can be used for later project
+
 Contact Module : Email contact message with validation. Can be reused for another project.
+
 Newsletter module : for news signup, can be reused for other project.
+
 Eventmgmt : Main folder for this event managment website.
+
 Manage.py : python file created by django has all the information necessary to run in local host.
+
 requirements.txt : List of software and libraries needed to run this project on your local machine.
 
 
@@ -42,6 +47,8 @@ Big thanks to Ccoding for entrepreneurs, I have learned from them through thier 
 
 <h2>Author</h2>
 Saphal Adhikari
+
 https://www.linkedin.com/in/saphaladhikari/
+
 https://medium.com/@franticarsenal
 
