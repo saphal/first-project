@@ -1,5 +1,5 @@
 dj-database-url==0.3.0
-Django==1.8.4
+Django==2.2.24
 django-crispy-forms==1.6.0
 django-formtools==1.0
 django-registration-redux==1.4
